@@ -2,7 +2,7 @@
 Easy handling C-scope and C-tag symbols.
 
 **Installation:**
-- Clone the reprository
+- Clone the reprository with ```git clone git@github.com:Sansel-Tech/ktags.git```
 - Do ```make build``` to install dependencies
 - Do ```make install``` to install the setup
 
