@@ -12,3 +12,11 @@ Enter into the directory ```ktags``` and
 - Run ```ktags``` to build symbols in current directory
 - Run ```cs``` to start cscope session
 
+**Internals:**
+- Running the command ```ktags``` will generate ```.ktags``` directory in the current path. This will contain the below three files for internal usage.
+```
+.ktags
+  ├── cscope.files -- List of files the tags get generated
+  ├── cscope.out   -- C-scope database
+  └── tags         -- C-tag database
+```
